@@ -1,6 +1,8 @@
     #include<bits/stdc++.h>
     using namespace std;
     
+// https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
     int firstOcc(vector<int>& nums,int target){
         int l=0,h=nums.size()-1,mid=l+(h-l)/2,ans=-1;
         
