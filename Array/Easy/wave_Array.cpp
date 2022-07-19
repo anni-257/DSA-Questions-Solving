@@ -6,12 +6,12 @@ void convertToWave(int n, vector<int>& arr){
             n=n-1;
         }
         else{
-            n=n-2;
+            n= n-2;
         }
         
         for(int i=0;i<n;i+=2){
             swap(arr[i],arr[i+1]);
-        }
+        }   
         
         
     }
