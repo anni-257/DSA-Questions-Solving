@@ -17,9 +17,14 @@ Node* deleteMid(Node* head)
 {
     Node* p=head,*q;
     int cnt=count(head),mid=0;
-    if(!head || cnt==1){
+    if(!head){
         return NULL;
-    }else{
+    }
+    else if(head->next){
+    	delete head;
+    	return NULL;
+    }
+    else{
         
         mid=cnt/2;
         
