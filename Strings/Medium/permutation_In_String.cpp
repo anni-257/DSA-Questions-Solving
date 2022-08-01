@@ -29,8 +29,7 @@ bool equals(int arr1[],int arr2[]){
                     return true;
                 }
                 hash2[s2[i]-'a']--;
-                i++;
-                j++;
+                i++;j++;
             }
         }
         
