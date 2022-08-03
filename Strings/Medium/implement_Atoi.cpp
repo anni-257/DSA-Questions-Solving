@@ -1,9 +1,8 @@
 
 
-// https://practice.geeksforgeeks.org/problems/implement-atoi/1?page=4&curated[]=1&sortBy=submissions
+// https://practice.geeksforgeeks.org/problems/implement-atoi/1?page=4&curated[]=1&sortBy=submission
 
-// A simple C++ program for
-// implementation of atoi
+// This is geeksforgeek solution
 #include <bits/stdc++.h>
 using namespace std;
 /*
@@ -54,6 +53,7 @@ int main()
 }
 */
 
+// this is my solution
  /*You are required to complete this method */
     int atoi(string str) {
         int ans=0;
