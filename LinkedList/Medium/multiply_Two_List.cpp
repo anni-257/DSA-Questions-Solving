@@ -2,6 +2,9 @@
 
 // https://practice.geeksforgeeks.org/problems/multiply-two-linked-lists/1?page=3&category[]=Linked%20List&sortBy=submissions
 
+// l1-->  1->2->3
+// l2-->  5->6->7
+// ans= 123 * 567
 
 long long  multiplyTwoLists (Node* l1, Node* l2)
 {
